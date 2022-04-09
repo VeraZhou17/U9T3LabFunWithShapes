@@ -23,6 +23,7 @@ public class Rectangle extends Shape
     
     // draw the rectangle given the top left point and width and height
     g.drawRect(getMinX(), getMinY(), getWidth(), getHeight()); // the getter methods here are INHERITED FROM SHAPE!
+    g.fillRect(getMinX(), getMinY(), getWidth(), getHeight()); // the getter methods here are INHERITED FROM SHAPE!
   }
 }
 
